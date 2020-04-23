@@ -134,37 +134,68 @@ table {
     border-spacing: 0;
 }
 
+/* ================================ */
+
 
 .container {
     max-width: 1052px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 0px auto;
+    /* background-color: blue; */
 }
 
 .slideshow {
     width: 100%;
-    height: 350px;
-    background-image: url(../img/2.png);
+    height: 400px;
+    background-image: url(../img/bg-img-slideshow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 60px;
+    margin-top: 100px;
 }
 
-.slideshow .quotes .circle {
+.images-show {
+    width: 400px;
+    height: 300px;
+    /* background-color: green; */
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.image {
     width: 120px;
     height: 120px;
-    background-color: lightblue;
+    background-image: url(../img/aso.jpg);
     border-radius: 50%;
-    margin: 0 auto;
+    border: 2px solid rgb(71, 71, 71);
+    margin: 0px auto;
+    animation: 20s animasi infinite;
 }
 
-.slideshow .quotes p {
-    font-size: 18px;
-    line-height: 30px;
+@keyframes animasi {
+    20% {
+        background-image: url(../img/ayuagst.png);
+    }
+
+    40% {
+        background-image: url(../img/foto_profil_aziz.png);
+    }
+
+    60% {
+        background-image: url(../img/thumbs-captain-amerika.jpg);
+    }
+
+    80% {
+        background-image: url(../img/thumbs-spiderman.jpg);
+    }
+
+    100% {
+        background-image: url(../img/aso.jpg);
+    }
+}
+
+.images-show p {
+    margin-top: 60px;
     text-align: center;
-    margin-top: 45px;
-    margin-left: 157px;
-    margin-right: 157px;
-    color: rgb(82, 82, 82);
-    text-shadow: 1px 1px 1px #474747;
+    font-size: 45px;
+    text-shadow: 0px 2px 2px rgb(66, 65, 65);
 }
