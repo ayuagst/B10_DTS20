@@ -141,7 +141,6 @@ table {
     max-width: 1052px;
     padding: 0 15px;
     margin: 0px auto;
-    /* background-color: blue; */
 }
 
 .slideshow {
@@ -151,12 +150,12 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 100px;
+    /* Tergantung header */
 }
 
 .images-show {
     width: 400px;
     height: 300px;
-    /* background-color: green; */
     margin: 0 auto;
     padding-top: 40px;
 }

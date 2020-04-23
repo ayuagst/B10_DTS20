@@ -1,5 +1,24 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {}
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+
+    .slideshow {
+        width: 100%;
+        background-position: center;
+    }
+}
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {}
+@media (max-width: 670px) {
+    .container {
+        width: 100%;
+    }
+
+    .slideshow {
+        width: 100%;
+        background-position: center;
+
+    }
+}
