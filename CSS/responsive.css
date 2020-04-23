@@ -1,7 +1,7 @@
 /* Untuk Tablet */
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     .container {
-        width: 100%;
+        width: 80%;
     }
 
     .slideshow {
@@ -11,9 +11,10 @@
 }
 
 /* Untuk Smartphone */
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
+
     .container {
-        width: 100%;
+        width: 80%;
     }
 
     .slideshow {
