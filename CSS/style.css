@@ -153,24 +153,28 @@ table {
     /* Tergantung header */
 }
 
-.images-show {
+.slideshow .images-show {
     width: 400px;
     height: 300px;
     margin: 0 auto;
     padding-top: 40px;
 }
 
-.image {
+.slideshow .images-show .image {
     width: 120px;
     height: 120px;
-    background-image: url(../img/aso-thumbnail.jpg);
+    background-image: url(../img/aso-thumb.jpg);
     border-radius: 50%;
     border: 2px solid rgb(71, 71, 71);
     margin: 0px auto;
-    animation: 20s animasi infinite;
+    animation: 40s animasi infinite;
 }
 
 @keyframes animasi {
+    0% {
+        background-image: url(../img/aso-thumb.jpg);
+    }
+
     20% {
         background-image: url(../img/ayuagst.png);
     }
@@ -188,7 +192,7 @@ table {
     }
 
     100% {
-        background-image: url(../img/aso-thumbnail.jpg);
+        background-image: url(../img/aso-thumb.jpg);
     }
 }
 
