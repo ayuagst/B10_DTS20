@@ -1,3 +1,0 @@
-Memahami prinsip dibidang Instrumentasi-Kontrol khususnya pada rangkaian
-elektronika dan kendali PID. Mempunyai pengetahuan dasar tentang robotic,
-PLC, design and wiring electrical, microcontroller, dan UI design and frontend programming.
