@@ -178,6 +178,11 @@ header {
     float: left;
 }
 
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
 .header-right {
     float: right;
     margin-right: -25px;
