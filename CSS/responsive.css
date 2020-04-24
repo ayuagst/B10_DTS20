@@ -2,12 +2,12 @@
 @media all and (max-width: 1000px) {
     /*slide show*/
     .container {
-        width: 50%;
+        width: 100%;
 		margin-bottom: 50px;
     }
 
     .slideshow {
-        width: 50%;
+        width: 100%;
         background-position: center;
     }
 
@@ -17,7 +17,7 @@
     }
     
       .profile-atas, .profile-bawah {
-        width: 50%; 
+        width: 90%; 
         height: auto; 
         margin: auto;
         display: flex;
@@ -58,7 +58,7 @@
     }
 
     .profile-atas, .profile-bawah {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: auto;
     display: flex;
@@ -66,7 +66,7 @@
     }
 
     .card {
-    width: 100%;
+    width: 90%;
     height: auto;
     }
 }
