@@ -217,7 +217,7 @@ table {
 .profile {
     width: 100%;
     height: auto; /*coba tinjau ulang*/
-    background-color: aliceblue;
+    background-color: #EAE9EE;
     padding-bottom: 40px;
 }
 
@@ -249,7 +249,7 @@ table {
     height: auto;
     margin: 20px;
     border-radius: 10px;
-    background-color: #0090c1 /* #57b9f2; /*sesuaikan*/
+    background-color: #CAC5C1; /*sesuaikan*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -259,7 +259,7 @@ table {
 }
 .box {
     height: auto;
-    background-color: peachpuff; /*sesuaikan*/
+    background-color: #3C89C5; /*sesuaikan*/
     color: white;
     font-size: 14px;
     text-align: justify;
