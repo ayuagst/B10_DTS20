@@ -139,19 +139,12 @@ table {
 
 /* ===============HEADER================= */
 
-
-.container {
-    max-width: 1052px;
-    padding: 0 15px;
-    margin: 0px auto;
-}
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: "Cooper Black";
 }
 
 a {
@@ -164,7 +157,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: #cc8e35;
+  background-color: #f7d794;
   position :fixed;
   top: 0;
   z-index: 10;
