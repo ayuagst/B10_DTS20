@@ -1,5 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    /*slide show*/
     .container {
         width: 100%;
     }
@@ -8,11 +9,29 @@
         width: 100%;
         background-position: center;
     }
+
+    /*profil kami*/
+    .profile {
+        background-color: lightskyblue; /*nanti hapus aja*/
+    }
+    
+      .profile-atas, .profile-bawah {
+        width: 90%; 
+        height: auto; 
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .card {
+        width: 90%;
+        height: auto; 
+      }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-
+    /*slide show*/
     .container {
         width: 100%;
     }
@@ -21,5 +40,23 @@
         width: 100%;
         background-position: center;
 
+    }
+
+    /*profil kami*/
+    .profile {
+    background-color: lightcoral; /*nanti hapus aja*/
+    }
+
+    .profile-atas, .profile-bawah {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .card {
+    width: 90%;
+    height: auto;
     }
 }
