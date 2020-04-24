@@ -249,7 +249,7 @@ table {
     height: auto;
     margin: 20px;
     border-radius: 10px;
-    background-color: #CAC5C1; /*sesuaikan*/
+    background-color: rgb(206, 190, 178); /*sesuaikan*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     text-align: center;
 }
