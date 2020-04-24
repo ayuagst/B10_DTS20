@@ -137,13 +137,17 @@ table {
     border-spacing: 0;
 }
 
-/* ===============HEADER================= */
+/* =============== CSS RESET =============== */
+
 
 .container {
     max-width: 1052px;
     /* padding: 0 15px; */
     margin: 0px auto;
 }
+
+
+/* ===============HEADER================= */
 
 * {
     box-sizing: border-box;
@@ -164,7 +168,7 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: #f7d794;
+    background-color: #f8c291;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -176,6 +180,11 @@ header {
     color: white;
     display: block;
     float: left;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 20px;
 }
 
 .header-right {
@@ -203,14 +212,18 @@ header {
     padding: 21px 0;
     display: none;
 }
+.fa {
+  margin-right: 5px;
+}
 
 /* =========== SLIDESHOW =========== */
 .slideshow {
-    height: 350px;
+    height: 450px;
     background-image: url(../img/bg-img-slideshow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 30px;
+    margin-bottom: 70px;
     /* margin-top: 100px;
     Tergantung header*/
 }
@@ -219,7 +232,7 @@ header {
     width: 400px;
     height: 300px;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 .image {
@@ -229,7 +242,7 @@ header {
     border-radius: 50%;
     border: 2px solid rgb(71, 71, 71);
     margin: 0 auto;
-    animation: 40s animasi infinite;
+    animation: 40s animasi ease infinite;
 }
 
 @keyframes animasi {
@@ -246,11 +259,11 @@ header {
     }
 
     60% {
-        background-image: url(../img/thumbs-captain-amerika.jpg);
+        background-image: url(../img/ayumal-thumb.jpg);
     }
 
     80% {
-        background-image: url(../img/thumbs-spiderman.jpg);
+        background-image: url(../img/arkhan.jpg);
     }
 
     100% {
@@ -258,12 +271,39 @@ header {
     }
 }
 
-.slideshow .judul {
+.text-slideshow {
+    position: relative;
+    height: 230px;
+    /* background-color: lightgreen; */
+}
+
+.text-slideshow p {
     margin-top: 60px;
     text-align: center;
     font-size: 45px;
     text-shadow: 0px 2px 2px rgb(66, 65, 65);
 }
+
+.text-slideshow .panel {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.text-slideshow .panel img {
+    margin-right: 40px;
+    margin-left: 40px;
+    /* float: right; */
+}
+
+/* .clear {
+    clear: both;
+} */
 
 /* =========== PROFIL KAMI =========== */
 

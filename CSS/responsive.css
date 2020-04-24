@@ -1,46 +1,51 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
     /*slide show*/
     .container {
         width: 100%;
-		margin-bottom: 50px;
+        margin-bottom: 50px;
     }
 
+    /* Slideshow */
     .slideshow {
         width: 100%;
         background-position: center;
     }
 
     /*profil kami*/
-    .profile {
-        background-color: lightskyblue; /*nanti hapus aja*/
-    }
-    
-      .profile-atas, .profile-bawah {
-        width: 90%; 
-        height: auto; 
+    /* .profile {
+        background-color: lightskyblue;
+        nanti hapus aja
+    } */
+
+    .profile-atas,
+    .profile-bawah {
+        width: 90%;
+        height: auto;
         margin: auto;
         display: flex;
         flex-direction: column;
-      }
-    
-      .card {
+    }
+
+    .card {
         width: 90%;
-        height: auto; 
-      }
+        height: auto;
+    }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-	/*header*/
-	.header-right {
-    display:none;
+
+    /*header*/
+    .header-right {
+        display: none;
     }
-  
+
     .menu-icon {
-    display:block;
+        display: block;
     }
-	
+
     /*slide show*/
     .container {
         width: 100%;
@@ -53,20 +58,22 @@
     }
 
     /*profil kami*/
-    .profile {
-    background-color: lightcoral; /*nanti hapus aja*/
-    }
+    /* .profile {
+        background-color: lightcoral;
+        nanti hapus aja
+    } */
 
-    .profile-atas, .profile-bawah {
-    width: 90%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+    .profile-atas,
+    .profile-bawah {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .card {
-    width: 90%;
-    height: auto;
+        width: 90%;
+        height: auto;
     }
 }
