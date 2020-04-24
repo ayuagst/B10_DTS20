@@ -141,65 +141,67 @@ table {
 
 .container {
     max-width: 1052px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin: 0px auto;
 }
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .clear {
-  clear: left;
+    clear: left;
 }
+
 header {
-  height: 65px;
-  width: 100%;
-  background-color: #f7d794;
-  position :fixed;
-  top: 0;
-  z-index: 10;
+    height: 65px;
+    width: 100%;
+    background-color: #f7d794;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .header-left {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
 }
 
 .header-right {
-  float: right;
-  margin-right: -25px;
+    float: right;
+    margin-right: -25px;
 }
 
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display:none;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
 
 /* =========== SLIDESHOW =========== */
@@ -269,9 +271,11 @@ header {
     text-align: center;
     padding: 20px;
 }
+
 .profile {
     width: 100%;
-    height: auto; /*coba tinjau ulang*/
+    height: auto;
+    /*coba tinjau ulang*/
     background-color: #EAE9EE;
     padding-bottom: 40px;
 }
@@ -284,16 +288,18 @@ header {
 }
 
 .profile-atas {
-    width: 75%; /*masing-masing orang 25%*/
-    height: auto; 
+    width: 75%;
+    /*masing-masing orang 25%*/
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
 
 .profile-bawah {
-    width: 50%; /*masing-masing orang 25%*/
-    height: auto; 
+    width: 50%;
+    /*masing-masing orang 25%*/
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -304,7 +310,8 @@ header {
     height: auto;
     margin: 20px;
     border-radius: 10px;
-    background-color: rgb(206, 190, 178); /*sesuaikan*/
+    background-color: rgb(206, 190, 178);
+    /*sesuaikan*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -312,9 +319,11 @@ header {
 .box h2 {
     text-align: center;
 }
+
 .box {
     height: auto;
-    background-color: #3C89C5; /*sesuaikan*/
+    background-color: #3C89C5;
+    /*sesuaikan*/
     color: white;
     font-size: 14px;
     text-align: justify;
