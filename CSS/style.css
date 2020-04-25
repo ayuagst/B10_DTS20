@@ -184,6 +184,7 @@ header {
     color: white;
     display: block;
     float: left;
+    /* text-align: center; */
 }
 
 .logo {
@@ -193,7 +194,7 @@ header {
 
 .header-right {
     float: right;
-    margin-right: -25px;
+    /* margin-right: -25px; */
 }
 
 .header-right a {
@@ -214,6 +215,7 @@ header {
     float: right;
     font-size: 25px;
     padding: 21px 0;
+    margin-right: 20px;
     display: none;
 }
 
