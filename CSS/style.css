@@ -143,12 +143,9 @@ table {
 
 
 .container {
-    /*coba bentar*/
     max-width: 1052px;
     /* padding: 0 15px; */
     margin: 0px auto;
-    background-color: blue;
-    /*cek box, ntar hapus*/
 }
 
 
@@ -233,8 +230,6 @@ header {
     background-size: cover;
     padding-top: 30px;
     margin-bottom: 70px;
-    /* margin-top: 100px;
-    Tergantung header*/
 }
 
 .slideshow .slider {
@@ -300,15 +295,9 @@ header {
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 0;
-    /* text-align: center; */
     display: flex;
     justify-content: space-around;
 }
-
-/* .text-slideshow .panel img {
-    margin-right: 40px;
-    margin-left: 40px;
-} */
 
 
 /* =========== PROFIL KAMI =========== */
@@ -325,6 +314,7 @@ h1 {
     text-decoration: none;
     list-style-type: none;
 }
+
 .profile {
     margin: 0;
     width: 100%;
@@ -381,7 +371,7 @@ figcaption a {
 
 .box {
     height: 400px;
-    background-color:  rgb(206, 190, 178);
+    background-color: rgb(206, 190, 178);
     font-size: 14px;
     text-align: justify;
     padding: 20px;
