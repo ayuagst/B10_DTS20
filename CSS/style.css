@@ -312,20 +312,23 @@ header {
 
 
 /* =========== PROFIL KAMI =========== */
-
-.profile h1 {
+h1 {
     text-align: center;
-    padding: 20px;
+    padding-top: 70px;
+    padding-bottom: 15px;
     font-size: 30px;
-    background-color: chartreuse;
-    /*ntar hapus aja*/
+    font-weight: bold;
+    color: rgb(39, 113, 170);
 }
 
+.profile li {
+    text-decoration: none;
+    list-style-type: none;
+}
 .profile {
     margin: 0;
     width: 100%;
     height: auto;
-    /*coba tinjau ulang*/
     background-color: #EAE9EE;
     padding-bottom: 40px;
 }
@@ -339,24 +342,18 @@ header {
 
 .profile-atas {
     width: 75%;
-    /*masing-masing orang 25%*/
     height: auto;
     margin: auto;
     display: flex;
     flex-direction: row;
-    background-color: cornflowerblue;
-    /*HAPUS AJA*/
 }
 
 .profile-bawah {
     width: 50%;
-    /*masing-masing orang 25%*/
     height: auto;
     margin: auto;
     display: flex;
     flex-direction: row;
-    background-color: darkgoldenrod;
-    /*HAPUS*/
 }
 
 .card {
@@ -364,8 +361,7 @@ header {
     height: auto;
     margin: 20px;
     border-radius: 10px;
-    background-color: rgb(206, 190, 178);
-    /*sesuaikan*/
+    background-color: #3C89C5;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -373,13 +369,19 @@ header {
 .box h2 {
     text-align: center;
     font-size: 24px;
+    font-weight: bold;
+    color: rgb(39, 113, 170);
+    padding-bottom: 5px;
+}
+
+figcaption a {
+    font-weight: bold;
+    color: rgb(39, 113, 170);
 }
 
 .box {
-    height: auto;
-    background-color: #3C89C5;
-    /*sesuaikan*/
-    color: white;
+    height: 400px;
+    background-color:  rgb(206, 190, 178);
     font-size: 14px;
     text-align: justify;
     padding: 20px;

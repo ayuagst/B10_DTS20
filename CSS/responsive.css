@@ -13,12 +13,6 @@
         background-position: center;
     }
 
-    /*profil kami*/
-    /* .profile {
-        background-color: lightskyblue;
-        nanti hapus aja
-    } */
-
     .profile-atas,
     .profile-bawah {
         width: 90%;
@@ -30,6 +24,10 @@
 
     .card {
         width: 90%;
+        height: auto;
+    }
+
+    .box {
         height: auto;
     }
 }
@@ -57,12 +55,6 @@
 
     }
 
-    /*profil kami*/
-    /* .profile {
-        background-color: lightcoral;
-        nanti hapus aja
-    } */
-
     .profile-atas,
     .profile-bawah {
         width: 90%;
@@ -74,6 +66,10 @@
 
     .card {
         width: 90%;
+        height: auto;
+    }
+
+    .box {
         height: auto;
     }
 }
