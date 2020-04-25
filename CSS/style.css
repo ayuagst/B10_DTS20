@@ -143,9 +143,8 @@ table {
 
 
 .container {
-    width: 1052px;
     /*coba bentar*/
-    /*max-width: 1052px;*/
+    max-width: 1052px;
     /* padding: 0 15px; */
     margin: 0px auto;
     background-color: blue;
