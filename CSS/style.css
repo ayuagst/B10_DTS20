@@ -141,7 +141,8 @@ table {
 
 
 .container {
-    max-width: 1052px;
+    width: 100%; /*coba bentar*/
+    /*max-width: 1052px;*/
     /* padding: 0 15px; */
     margin: 0px auto;
 }
@@ -306,6 +307,7 @@ header {
 .profile h1 {
     text-align: center;
     padding: 20px;
+    font-size: 24px;
 }
 
 .profile {
