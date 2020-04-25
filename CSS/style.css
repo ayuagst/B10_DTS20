@@ -143,11 +143,13 @@ table {
 
 
 .container {
-    width: 100%; /*coba bentar*/
+    width: 100%;
+    /*coba bentar*/
     /*max-width: 1052px;*/
     /* padding: 0 15px; */
     margin: 0px auto;
-    background-color: blue; /*cek box, ntar hapus*/
+    background-color: blue;
+    /*cek box, ntar hapus*/
 }
 
 
@@ -160,7 +162,8 @@ table {
 body {
     padding: 0;
     margin: 0;
-    background-color: cadetblue; /*cek box, ntar hapus*/
+    background-color: cadetblue;
+    /*cek box, ntar hapus*/
 }
 
 a {
@@ -298,13 +301,15 @@ header {
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 0;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
 }
 
-.text-slideshow .panel img {
+/* .text-slideshow .panel img {
     margin-right: 40px;
     margin-left: 40px;
-}
+} */
 
 
 /* =========== PROFIL KAMI =========== */
@@ -313,7 +318,8 @@ header {
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    background-color: chartreuse; /*ntar hapus aja*/
+    background-color: chartreuse;
+    /*ntar hapus aja*/
 }
 
 .profile {
@@ -339,7 +345,8 @@ header {
     margin: auto;
     display: flex;
     flex-direction: row;
-    background-color: cornflowerblue; /*HAPUS AJA*/
+    background-color: cornflowerblue;
+    /*HAPUS AJA*/
 }
 
 .profile-bawah {
@@ -349,7 +356,8 @@ header {
     margin: auto;
     display: flex;
     flex-direction: row;
-    background-color: darkgoldenrod; /*HAPUS*/
+    background-color: darkgoldenrod;
+    /*HAPUS*/
 }
 
 .card {
