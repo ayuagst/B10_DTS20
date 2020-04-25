@@ -36,11 +36,11 @@
 @media all and (max-width: 670px) {
 
     /*header*/
-     .header-right {
+    .header-right {
         display: none;
     }
 
-    .menu-icon {
+    .container .menu-icon {
         display: block;
     }
 
