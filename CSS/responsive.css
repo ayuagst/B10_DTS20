@@ -36,7 +36,13 @@
 @media all and (max-width: 670px) {
 
     /*header*/
-    
+     .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 
     /*slide show*/
     .container {
