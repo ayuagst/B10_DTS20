@@ -110,7 +110,7 @@ header,
 hgroup,
 menu,
 section {
-    display: block;
+    display: none;
 }
 
 /*
