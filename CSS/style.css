@@ -109,8 +109,9 @@ footer,
 header,
 hgroup,
 menu,
+nav,
 section {
-    display: none;
+    display: block;
 }
 
 /*
