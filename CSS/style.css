@@ -419,34 +419,36 @@ figcaption a {
 	border: 10px solid #efefef; 
 	position: relative; 
 	overflow: hidden; 
-    background: #efefef;
-    margin:20px auto;
-	width: 100%;
+	background: #efefef;
 }
- 
+
+.portfolio-slider { 
+	margin:20px auto;
+	width: 768px;
+	height: 450px; 
+}
 
 .content-slider img { 
-	width: 600px;
-	height: auto;
-    float: left;
-    
+	width: 768px;
+	height: 450px; 
+	float: left;
 }
- 
+
 .content-slider { 
 	position: absolute; 
-	width:100%;  
- 
-    /*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+	width:3900px;  
+
+	/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
 	animation-name:slider;
-	animation-duration:16s;
+	animation-duration:8s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count:infinite;
 	-webkit-animation-name:slider;
-	-webkit-animation-duration:16s;
+	-webkit-animation-duration:8s;
 	-webkit-animation-timing-function: ease-in-out;
 	-webkit-animation-iteration-count:infinite;
 	-moz-animation-name:slider;
-	-moz-animation-duration:16s;
+	-moz-animation-duration:8s;
 	-moz-animation-timing-function: ease-in-out;
 	-moz-animation-iteration-count:infinite;
 	-o-animation-name:slider;
@@ -454,6 +456,7 @@ figcaption a {
 	-o-animation-timing-function: ease-in-out;
 	-o-animation-iteration-count:infinite;
 }
+
 
 /*saat gambar di hover oleh cursor mouse maka berhenti slide*/
 .content-slider:hover { 
@@ -466,7 +469,7 @@ figcaption a {
 .content-slider img { 
 	float: right; 
 }
- 
+
 .portfolio-slider:after { 
 	font-size: 150px; 
 	position: absolute; 
@@ -477,10 +480,12 @@ figcaption a {
 	-moz-transition: 1s all ease-in-out; 
 	transition: 1s all ease-in-out; 
 }
- 
+
 .portfolio-slider:hover:after { 
 	color: rgba(255,255,255, 0.6);  
 }
+
+
 
 @-moz-keyframes slider {     
 	0% {
@@ -535,7 +540,7 @@ figcaption a {
 		left: 0; opacity: 0; 
 	}
 } 
- 
+
 @-webkit-keyframes slider {     
 	0% {
 		left: 0; opacity: 0; 
@@ -589,8 +594,8 @@ figcaption a {
 		left: 0; opacity: 0; 
 	}
 } 
- 
- 
+
+
 @keyframes slider {     
 	0% {
 		left: 0; opacity: 0; 
@@ -640,7 +645,7 @@ figcaption a {
 	97% { 
 		left: -2304px; opacity: 0; 
 	} 
- 
+
 	100% {
 		left: 0; opacity: 0; 
 	}
