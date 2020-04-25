@@ -155,6 +155,9 @@ table {
 
 /* ===============HEADER================= */
 
+.fa {
+  margin-right: 5px;
+}
 * {
     box-sizing: border-box;
 }
@@ -167,10 +170,6 @@ body {
 
 a {
     text-decoration: none;
-}
-
-.clear {
-    clear: left;
 }
 
 header {
