@@ -381,8 +381,7 @@ figcaption a {
     border-radius: 10px;
 }
 
-/* NYOBA DULU*/
-
+/* NYOBA DULU SLIDER*/
 .portfolio{
 	display: table;
 	width: 100%;
@@ -404,7 +403,7 @@ figcaption a {
 	border: 2px solid #eee;
 }
 .portfolio .box img:hover{
-	opacity: .8;
+	opacity: 0.8;
 }
 
 .footer-logo {
@@ -431,7 +430,7 @@ figcaption a {
 
 .content-slider img { 
 	width: 768px;
-	height: auto; 
+	height: 450; 
 	float: left;
 }
 
@@ -485,8 +484,6 @@ figcaption a {
 .porfolio-slider:hover:after { 
 	color: rgba(255,255,255, 0.6);  
 }
-
-
 
 @-moz-keyframes slider {     
 	0% {
