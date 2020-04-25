@@ -4,6 +4,10 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Source+Sans+Pro&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body,
 div,
@@ -159,7 +163,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: cadetblue;
-    /*cek box, ntar hapus*/
 }
 
 a {
@@ -194,7 +197,7 @@ header {
 
 .header-right {
     float: right;
-    margin-right: 5px;
+    margin-right: -25px;
 }
 
 .header-right a {
