@@ -317,6 +317,7 @@ header {
 }
 
 .profile {
+    margin: 0;
     width: 100%;
     height: auto;
     /*coba tinjau ulang*/
@@ -387,7 +388,7 @@ header {
     padding: 0;
 }
 
-footer {
+.footer-logo {
     width: 100%;
     height: 40px;
     background-color: fuchsia;
