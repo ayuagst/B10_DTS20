@@ -379,14 +379,29 @@ figcaption a {
 }
 
 /* NYOBA DULU*/
-#portfolio {
-    width: 100%;
-    background-color: darkslategray;
-    height: 800px;
-    margin: 0 auto;
-    padding: 0;
+.portfolio{
+	display: table;
+	width: 900px;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
 }
 
+.portfolio .box{
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px;
+}
+
+.portfolio .box img{
+	width:100%;
+	height: auto;
+	border-radius: 5px;
+	border: 2px solid #eee;
+}
+.portfolio .box img:hover{
+	opacity: .8;
+}
 .footer-logo {
     width: 100%;
     height: 40px;
