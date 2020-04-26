@@ -62,6 +62,7 @@
     label {
         display: block;
         cursor: pointer;
+
     }
 
     .menu {
@@ -73,11 +74,11 @@
     .menu a {
         display: inline-block;
         border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-        padding-right: 10px;
+        margin-top: 30px;
+        /* padding-right: 10px; */
     }
 
-    #toggle:checked+.menu {
+    #toggle:checked~.menu {
         display: block;
     }
 
