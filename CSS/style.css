@@ -1,3 +1,5 @@
+/* =============== CSS RESET =============== */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -162,6 +164,7 @@ h1 {
     margin: 0px auto;
 }
 
+/* =============== UMUM ================= */
 
 /* ===============HEADER================= */
 
@@ -234,7 +237,7 @@ header {
     display: none;
 }
 
-
+/* ===============HEADER================= */
 
 
 /* =========== SLIDESHOW =========== */
@@ -316,6 +319,9 @@ header {
     justify-content: space-around;
 }
 
+/* =========== SLIDESHOW =========== */
+
+
 
 /* =========== PROFIL KAMI =========== */
 h1 {
@@ -396,6 +402,9 @@ figcaption a {
     border-radius: 10px;
 }
 
+/* =========== PROFIL KAMI =========== */
+
+
 /* NYOBA DULU*/
 .portfolio {
     display: table;
@@ -422,10 +431,8 @@ figcaption a {
     opacity: .8;
 }
 
-/* FOOTER */
-/* footer {
-    margin-top: 40px;
-} */
+/* =========== FOOTER =========== */
+
 footer {
     background-color: #EBE9ED;
     margin-top: 20px;
@@ -451,3 +458,5 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* =========== FOOTER =========== */
