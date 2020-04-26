@@ -483,12 +483,11 @@ figcaption a {
 .portfolio .gallery {
   border: 1px solid #ccc;
   border-radius: 7px;
-  opacity:0.95;
 }
 
 .portfolio .gallery:hover {
   border: 1px solid #777;
-  opacity:1;
+  opacity:0.9;
 }
 
 .portfolio .gallery img {
