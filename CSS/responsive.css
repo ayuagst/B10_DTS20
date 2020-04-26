@@ -62,14 +62,18 @@
     label {
         display: block;
         cursor: pointer;
+        height: 50px;
+    }
 
+    .header-right {
+        height: 50px;
     }
 
     .menu {
         text-align: center;
         width: 100%;
         display: none;
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     .menu a:nth-child(1) {
