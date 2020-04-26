@@ -123,7 +123,8 @@ body {
 }*/
 
 ol,
-ul {
+ul,
+    {
     list-style: none;
 }
 
@@ -153,14 +154,26 @@ table {
     src: url(../font/BebasNeue-Regular.woff);
 }
 
+/* punya ayumal
 .header-right span,
+h1 {
+    font-family: neue;
+} */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 h1 {
     font-family: neue;
 }
 
 .container {
     max-width: 1052px;
-    /* padding: 0 15px; */
     margin: 0px auto;
 }
 
@@ -168,6 +181,7 @@ h1 {
 
 /* ===============HEADER================= */
 
+/* punya ayumal
 * {
     box-sizing: border-box;
 }
@@ -185,8 +199,6 @@ a {
 header {
     height: 65px;
     width: 100%;
-    /* position: fixed;
-    top: 0; */
     z-index: 10;
 }
 
@@ -196,7 +208,6 @@ header {
     color: white;
     display: block;
     float: left;
-    /* text-align: center; */
 }
 
 .logo {
@@ -235,7 +246,62 @@ header {
     padding: 21px 0;
     margin-right: 20px;
     display: none;
+} */
+
+/* .header-right span {
+    font-size: 23px;
+    color: black;
+    letter-spacing: 1px;
+} */
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    /* text-align: right; */
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.logo {
+    margin: 10px 0 0 10px;
+
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    /* clear: right; */
+    text-decoration: none;
+    /* color: gray; */
+    line-height: 70px;
+    font-size: 23px;
+    color: black;
+    letter-spacing: 1px;
+    font-family: neue;
+}
+
+.menu a:nth-child(1) {
+    margin-right: 40px;
+}
+
+
+label {
+    margin: 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
 
 /* ===============HEADER================= */
 
@@ -248,7 +314,7 @@ header {
     background-size: cover;
     padding-top: 30px;
     margin-bottom: 70px;
-    margin-top: -65px;
+    margin-top: -71px;
 }
 
 .slideshow .slider {
@@ -451,6 +517,7 @@ footer {
 .footer-list a,
 .footer-copyrigth p {
     color: black;
+    font-family: neue;
 }
 
 .footer-copyrigth p {
