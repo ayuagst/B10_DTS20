@@ -472,11 +472,16 @@ figcaption a {
 
 
 /* =========== PORTFOLIO >>>>>>>>>>>>> */
-.portfolio {
+
+.portfolio-container {
     display: table;
     width: 100%;
-    max-width: 1300px;
-	background-color: white;
+}
+
+.portfolio {
+    display: flexbox;
+    width: 90%;
+	flex-wrap: nowrap;
     margin: 0 auto;
 }
 
