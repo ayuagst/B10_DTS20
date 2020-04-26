@@ -6,9 +6,9 @@
     }
 
     /* ===============HEADER================= */
-    .header {
+    /* .header {
         top: 0;
-    }
+    } */
 
     .header-right {
         margin-right: 20px;
@@ -69,16 +69,22 @@
         text-align: center;
         width: 100%;
         display: none;
+        margin-top: 70px;
+    }
+
+    .menu a:nth-child(1) {
+        margin-right: 0px;
     }
 
     .menu a {
-        display: inline-block;
-        border-bottom: 1px solid #EAEAEB;
-        margin-top: 30px;
-        /* padding-right: 10px; */
+        border-bottom: 1px solid rgb(80, 80, 80);
+        padding-bottom: 5px;
+        display: block;
+        font-size: 20px;
+        height: 40px;
     }
 
-    #toggle:checked~.menu {
+    #toggle:checked+.menu {
         display: block;
     }
 
