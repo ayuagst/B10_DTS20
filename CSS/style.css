@@ -182,7 +182,6 @@ a {
 header {
     height: 65px;
     width: 100%;
-    /* background-color: #f8c291; */
     position: fixed;
     top: 0;
     z-index: 10;
@@ -224,7 +223,6 @@ header {
 .header-right a:hover {
     background-color: #F1D7CF;
     border-radius: 40%;
-    S
 }
 
 .container .menu-icon {
