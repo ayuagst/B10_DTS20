@@ -471,37 +471,74 @@ figcaption a {
 /* =========== PROFIL KAMI =========== */
 
 
-/* NYOBA DULU*/
+/* =========== PORTFOLIO >>>>>>>>>>>>> */
 .portfolio {
     display: table;
     width: 100%;
-    max-width: 900px;
+    max-width: 1300px;
+	background-color: white;
     margin: 0 auto;
-    text-align: center;
 }
 
-.portfolio .box {
-    display: table-cell;
-    vertical-align: top;
-    padding: 5px;
+.portfolio .gallery {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  opacity:0.95;
 }
 
-.portfolio .box img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    border: 2px solid #eee;
+.portfolio .gallery:hover {
+  border: 1px solid #777;
+  opacity:1;
 }
 
-.portfolio .box img:hover {
-    opacity: .8;
+.portfolio .gallery img {
+	width:100%;
+	height:200px;
+	border-radius: 7px 7px 0 0;
+	object-fit: cover;
 }
+
+.portfolio .desc {
+	padding-top: 6px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.portfolio-list .stats {
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	border-radius: 0 0 7px 7px;
+	background-color:rgb(240,240,240);
+}
+
+.portfolio-list .stats a {
+	color: gray;
+	padding-right: 6px;
+}
+
+.portfolio-list .stats a span {
+	padding-right: 3px;
+}
+
+.portfolio-list .stats a:hover {
+	color:rgb(50,50,50);
+}
+
+.portfolio-list .stats a .fa-comment:hover {
+	color:#D5913E;
+}
+.portfolio-list .stats a .fa-heart:hover {
+	color:red;
+}
+
+/* <<<<<<<<<<<<<< PORTFOLIO =============== */
 
 /* =========== FOOTER =========== */
 
 footer {
     background-color: #EBE9ED;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .footer-logo {
