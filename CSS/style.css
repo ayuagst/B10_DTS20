@@ -308,12 +308,12 @@ label {
 
 /* =========== SLIDESHOW =========== */
 .slideshow {
-    height: 550px;
+    height: 530px;
     background-image: url(../img/bg-img-slideshow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
     margin-top: -71px;
 }
 
@@ -392,7 +392,7 @@ label {
 /* =========== PROFIL KAMI =========== */
 h1 {
     text-align: center;
-    padding-top: 156px;
+    padding-top: 135px;
     padding-bottom: 15px;
     font-size: 30px;
     font-weight: bold;
@@ -410,7 +410,7 @@ h1 {
     width: 100%;
     height: auto;
     background-color: white;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 .card img {
@@ -476,57 +476,60 @@ figcaption a {
 .portfolio-container {
     display: table;
     width: 100%;
+    margin-top: -58px;
 }
 
 .portfolio {
     display: flexbox;
     width: 90%;
-	flex-wrap: nowrap;
+    flex-wrap: nowrap;
     margin: 0 auto;
 }
 
 .portfolio-list .gallery {
-  border: 1px solid #ccc;
-  border-radius: 7px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
 }
 
 .portfolio-list .gallery:hover {
-  border: 1px solid #777;
-  opacity:0.9;
+    border: 1px solid #777;
+    opacity: 0.9;
 }
 
 .portfolio-list .desc {
-	padding-top: 6px;
-	padding-bottom: 10px;
-	text-align: center;
-	font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
 }
+
 .portfolio-list .stats {
-	text-align: right;
-	padding-top: 6px;
-	padding-bottom: 10px;
-	border-radius: 0 0 7px 7px;
-	background-color:rgb(240,240,240);
+    text-align: right;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    border-radius: 0 0 7px 7px;
+    background-color: rgb(240, 240, 240);
 }
 
 .portfolio-list .stats a {
-	color: gray;
-	padding-right: 6px;
+    color: gray;
+    padding-right: 6px;
 }
 
 .portfolio-list .stats a span {
-	padding-right: 3px;
+    padding-right: 3px;
 }
 
 .portfolio-list .stats a:hover {
-	color:rgb(50,50,50);
+    color: rgb(50, 50, 50);
 }
 
 .portfolio-list .stats a .fa-comment:hover {
-	color:#D5913E;
+    color: #D5913E;
 }
+
 .portfolio-list .stats a .fa-heart:hover {
-	color:red;
+    color: red;
 }
 
 /* <<<<<<<<<<<<<< PORTFOLIO =============== */
